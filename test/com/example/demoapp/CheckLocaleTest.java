@@ -38,6 +38,8 @@ public class CheckLocaleTest {
 		 assertThat(text, equalTo("Hello!!"));
     }
 	
+    
+    
 	
 	// French Locale language.
 	@Test @Config(qualifiers = "fr")
