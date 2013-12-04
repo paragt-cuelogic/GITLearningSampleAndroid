@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		issue619Fix();
+		issue515Fix();
 	}
 	
 	@Override
@@ -22,6 +23,10 @@ public class MainActivity extends Activity {
 	
 	private boolean issue619Fix(){
 		return true;
+	}
+	
+	private void issue515Fix(){
+		//Fix 515
 	}
 	
 }
