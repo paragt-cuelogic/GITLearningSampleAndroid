@@ -39,7 +39,7 @@ public class CheckLocaleTest {
     }
 	
 	
-	// French Locale.
+	// French Locale language.
 	@Test @Config(qualifiers = "fr")
 	public void shouldHaveFrenchText() throws Exception
 	{
