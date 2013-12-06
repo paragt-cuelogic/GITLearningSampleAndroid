@@ -22,5 +22,10 @@ public class MainActivityTest {
 		//happy test
 		assertFalse(false);
 	}
+    
+    @Test
+	public void test2() {
+        assertTrue(false);
+	}
 	
 }
