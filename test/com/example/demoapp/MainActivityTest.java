@@ -18,8 +18,6 @@ public class MainActivityTest {
 	
 	@Test
 	public void test() {
-//		fail("Not yet implemented"); // This will fail for sure.
-		//happy test
 		assertFalse(false);
 	}
     
