@@ -27,5 +27,10 @@ public class MainActivityTest {
 	public void test2() {
         assertTrue(false);
 	}
+    
+    @Test
+	public void test3() {
+        assertTrue(true);
+	}
 	
 }
