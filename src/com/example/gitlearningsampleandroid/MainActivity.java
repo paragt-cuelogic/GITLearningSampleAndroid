@@ -11,7 +11,9 @@ public class MainActivity extends Activity {
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		// This is updated comment
+	       if(isGitWorking()){
+		System.out.println("Wow, GIT is working");
+	       }	
 	}
 
 	@Override
@@ -24,7 +26,13 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
-	// This Comment is added only for demo purpose.
 
+<<<<<<< HEAD
 	//Added comment
+=======
+	// To check if GIT is working or not.
+       public boolean isGitWorking() {
+           return true;
+       } 
+>>>>>>> a9072ef1b7d45176a0cb1d65c7213af806dc2d47
 }
